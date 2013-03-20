@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+
+.nav-list>.active>a,.nav-list>.active>a:hover {
+  /*background: transparent;*/
+  
+}
+
+.bump {
+  margin-top: 50px;
+}
+
+.dropdown.open .dropdown-toggle {
+  color: #0099FF;
+  background: transparent;
+}
+
+.footer {
+  padding: 20px 0;
+  background-color: #333;
+}
+
+
+/* Sidenav for Docs
+-------------------------------------------------- */
+
+.ewika-menu {
+  background-color: #fff;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+.ewika-menu li a {
+  display: block;
+  color: #3A3D3A;
+  font-size: 40px;
+  font-weight:bold;
+  text-shadow:0;
+  line-height:38px;
+}
+.ewika-menu li:first-child a {
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+.ewika-menu li:last-child a {
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+.ewika-menu .active a{
+  position: relative;
+  z-index: 2;
+  border: 0;
+}

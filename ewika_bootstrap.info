@@ -1,0 +1,32 @@
+name = Ewwwwwwwwwwika
+description = A flexible, responsive and mobile-first theme based on Kalatheme aka built on Panopoly and powered by Twitter Bootstrap. 
+base theme = kalatheme
+version = VERSION
+core = 7.x
+
+regions[content] = Content
+
+stylesheets[all][] = css/custom.css
+stylesheets[all][] = css/docs.css
+stylesheets[all][] = css/m-buttons.css
+stylesheets[all][] = css/m-forms.css
+stylesheets[all][] = css/slabtext.css
+stylesheets[all][] = css/tweaks.css
+
+scripts[] = js/anchor.js
+scripts[] = js/application.js
+scripts[] = js/jquery.slabtext.js
+scripts[] = js/metro-custom.js
+scripts[] = js/custom.js
+
+features[] = logo
+features[] = name
+features[] = slogan
+;features[] = node_user_picture
+;features[] = comment_user_picture
+;features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+plugins[panels][layouts] = layouts
