@@ -38,6 +38,10 @@
   line-height: 38px;
 }
 
+#node-edit #edit-title {
+  height: 40px;
+}
+
 .ewika-menu li:first-child a {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
