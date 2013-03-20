@@ -2,7 +2,8 @@
 
 .nav-list>.active>a,.nav-list>.active>a:hover {
   /*background: transparent;*/
-  
+  color: #0099FF;
+  background: transparent;
 }
 
 .bump {
@@ -19,36 +20,42 @@
   background-color: #333;
 }
 
-
 /* Sidenav for Docs
 -------------------------------------------------- */
-
 .ewika-menu {
   background-color: #fff;
   -webkit-border-radius: 0;
-     -moz-border-radius: 0;
-          border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
+
 .ewika-menu li a {
   display: block;
   color: #3A3D3A;
   font-size: 40px;
-  font-weight:bold;
-  text-shadow:0;
-  line-height:38px;
+  font-weight: bold;
+  text-shadow: 0;
+  line-height: 38px;
 }
+
 .ewika-menu li:first-child a {
   -webkit-border-radius: 0;
-     -moz-border-radius: 0;
-          border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
+
 .ewika-menu li:last-child a {
   -webkit-border-radius: 0;
-     -moz-border-radius: 0;
-          border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
-.ewika-menu .active a{
+
+.ewika-menu .active a {
   position: relative;
   z-index: 2;
   border: 0;
+}
+
+.ewika-menu li a.active {
+  color: #0099FF;
 }
